@@ -52,6 +52,9 @@ android {
 }
 
 dependencies {
+    // ICONS
+    implementation("androidx.compose.material:material-icons-extended") //define in toml file later
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
